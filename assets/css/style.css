@@ -48,3 +48,47 @@ html {
     text-align:right;
     font-family: sans-serif;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+  /* image style */
+  img {
+    max-width: 100%
+    
+  }
+
+  .image {
+    flex-basis: 35%
+
+    
+  }
+
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+/* footer */
+
+* {
+    box-sizing: border-box;
+    padding: o;
+    margin:0 ;
+}
+
+.footer-container {
+    background-color: #ffb6c1;
+    padding-bottom: 3rem;
+}
+
+.footer {
+    height: 40%;
+    width: 80%;
+    color: ivory;
+    justify-content: center;
+    margin: 0%;
+}
